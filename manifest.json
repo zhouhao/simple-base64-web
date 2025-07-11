@@ -1,0 +1,61 @@
+{
+  "name": "Base64 Encoder/Decoder",
+  "short_name": "Base64 Tool",
+  "description": "Free online Base64 encoder and decoder tool. Convert text to Base64 and decode Base64 to text instantly with real-time processing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Encode Text",
+      "short_name": "Encode",
+      "description": "Encode text to Base64",
+      "url": "/?mode=encode",
+      "icons": [
+        {
+          "src": "icons/icon.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Decode Text",
+      "short_name": "Decode",
+      "description": "Decode Base64 to text",
+      "url": "/?mode=decode",
+      "icons": [
+        {
+          "src": "icons/icon.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}

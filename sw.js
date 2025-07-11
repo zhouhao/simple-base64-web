@@ -7,6 +7,8 @@ const urlsToCache = [
     '/index.html',
     '/js/main.js',
     '/css/styles.css',
+    '/manifest.json',
+    '/icons/icon.svg',
     'https://cdn.tailwindcss.com'
 ];
 
